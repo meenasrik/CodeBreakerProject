@@ -63,7 +63,7 @@ function getResults(input) {
   html += '</div></div>';
   document.getElementById('results').innerHTML = html;
 
-  /*it would suffice to check is strings are equal rather than
+  /*it would suffice to check if strings are equal rather than
   find count of characters the user got correctly */
   if (input === answer.value) return true;
   else return false;
